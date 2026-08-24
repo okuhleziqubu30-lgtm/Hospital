@@ -4,14 +4,14 @@
 
 package com.mycompany.hospital;
 
-import java.util.List; 
+import java.util.List;
 import java.util.Scanner;
 
 /**
  *
  * @author User
  */
-public class Hospital {
+public class Hospital { 
 private static  Scanner scan = new Scanner(System.in);
 private static PatientRegistry registry = new PatientRegistry();
 private static Ward ward = new Ward();
