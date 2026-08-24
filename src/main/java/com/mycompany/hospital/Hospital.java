@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author User
  */
-public class Hospital { 
+public class Hospital {
 private static  Scanner scan = new Scanner(System.in);
 private static PatientRegistry registry = new PatientRegistry();
 private static Ward ward = new Ward();
@@ -45,7 +45,7 @@ private static Ward ward = new Ward();
         scan.close();
     }
 
-    private static void printMenu() {
+    private static void printMenu() { 
         System.out.println("\n===== MediCare Hospital Patient Admission System =====");
         System.out.println(" 1. Register a new patient");
         System.out.println(" 2. Search for a patient");
